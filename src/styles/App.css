@@ -1,0 +1,29 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+}
+
+.home{
+	padding: 10em;
+	margin: 0;
+	height: 100%;
+}
+
+#titulo_home{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.sign{
+	padding: 2em 10em 2em 10em;
+}
+
+.boton_comentar{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.boton_salir > a{
+	color: white;
+}
