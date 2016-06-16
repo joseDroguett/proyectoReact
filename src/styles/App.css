@@ -4,6 +4,11 @@ body {
   background: #222;
 }
 
+.mi_grafico{
+	background-color: #fff;
+	margin: 50px 50px 10px 50px;
+}
+
 .home{
 	padding: 10em;
 	margin: 0;
@@ -26,4 +31,56 @@ body {
 
 .boton_salir > a{
 	color: white;
+}
+
+.comment-enter{
+	opacity: 0.01;
+}
+
+.comment-enter.comment-enter-active{
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+
+.comment-leave{
+	opacity: 1;
+}
+
+.comment-leave.comment-leave-active{
+	opacity: 0.01;
+	transition: opacity 300ms ease-in;
+}
+
+.boton_salir {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.grafico_lista{
+	margin-top: 20px;
+	padding-right: 350px;
+	padding-left: 350px;
+	margin-bottom: 20px;
+}
+
+#boton_ir_graficos{
+	margin-left: 10px;
+}
+
+.entrada_grafico-enter{
+	opacity: 0.01;
+}
+
+.entrada_grafico-enter.entrada_grafico-enter-active{
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+
+.entrada_grafico-leave{
+	opacity: 1;
+}
+
+.entrada_grafico-leave.entrada_grafico-leave-active{
+	opacity: 0.01;
+	transition: opacity 300ms ease-in;
 }

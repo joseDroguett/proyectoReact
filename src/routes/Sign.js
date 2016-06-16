@@ -7,8 +7,7 @@ import CommentBox from '../components/CommentBox.js'
 
 import CommentActions from '../actions/CommentActions.js'
 import CommentStore from '../stores/CommentStore.js'
-
-import { Link } from 'react-router'
+import BotonSalir from '../components/BotonSalir.js'
 
 @ReactMixin.decorate(Reflux.connect(CommentStore,'comments'))
 export default class Sign extends React.Component{
@@ -38,7 +37,7 @@ export default class Sign extends React.Component{
 			return(
 				<div class='sign'>
 					<CommentBox onSubmit={this.onSubmitSendComment.bind(this)} data={this.state.comments}/>
-					<Link class='boton_salir btn btn-danger form-control' to="/">Salir</Link>
+					<BotonSalir suclase='form-control' to='/' />
 				</div>
 			)
 		}

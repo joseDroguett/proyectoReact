@@ -28,3 +28,7 @@ node_modules
 
 # Bower
 bower_components/
+
+# mac
+.DS_Store
+src/.DS_Store
